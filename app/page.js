@@ -69,8 +69,7 @@ export default function Home() {
             margin: "0 auto",
           }}
         >
-          Learn English Language and Basic Computer Skills with modern and
-          practical training.
+          Learn English Language and Basic Computer Skills with modern and practical training.
         </p>
       </section>
 
