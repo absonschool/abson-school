@@ -18,22 +18,22 @@ export default function Home() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-  <img
-    src="/Abson-School-Logo.png"
-    alt="Abson School Logo"
-    style={{
-      width: "60px",
-      height: "60px",
-      borderRadius: "12px",
-      background: "white",
-      padding: "5px",
-    }}
-  />
+          <img
+            src="/Abson-School-Logo.png"
+            alt="Abson School Logo"
+            style={{
+              width: "60px",
+              height: "60px",
+              borderRadius: "12px",
+              background: "white",
+              padding: "5px",
+            }}
+          />
 
-  <h1 style={{ fontSize: "32px", fontWeight: "bold" }}>
-    Abson School
-  </h1>
-</div>
+          <h1 style={{ fontSize: "32px", fontWeight: "bold" }}>
+            Abson School
+          </h1>
+        </div>
 
         <a
           href="https://wa.me/251911558921"
@@ -69,66 +69,9 @@ export default function Home() {
             margin: "0 auto",
           }}
         >
-          Learn English Language and Basic Computer Skills with modern,
-          practical, and career-focused training.
+          Learn English Language and Basic Computer Skills with modern and
+          practical training.
         </p>
-      </section>
-
-      <section
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-          gap: "20px",
-          marginBottom: "80px",
-        }}
-      >
-        <div
-          style={{
-            background: "#1e293b",
-            padding: "30px",
-            borderRadius: "20px",
-          }}
-        >
-          <h3 style={{ fontSize: "28px", marginBottom: "15px" }}>
-            English Training
-          </h3>
-
-          <p style={{ color: "#cbd5e1" }}>
-            Improve speaking, grammar, listening, and communication skills.
-          </p>
-        </div>
-
-        <div
-          style={{
-            background: "#1e293b",
-            padding: "30px",
-            borderRadius: "20px",
-          }}
-        >
-          <h3 style={{ fontSize: "28px", marginBottom: "15px" }}>
-            Computer Skills
-          </h3>
-
-          <p style={{ color: "#cbd5e1" }}>
-            Learn typing, Microsoft Office, internet skills, and digital tools.
-          </p>
-        </div>
-
-        <div
-          style={{
-            background: "#1e293b",
-            padding: "30px",
-            borderRadius: "20px",
-          }}
-        >
-          <h3 style={{ fontSize: "28px", marginBottom: "15px" }}>
-            Online Registration
-          </h3>
-
-          <p style={{ color: "#cbd5e1" }}>
-            Register easily online and start learning quickly.
-          </p>
-        </div>
       </section>
 
       <section
@@ -143,56 +86,22 @@ export default function Home() {
           Register Now
         </h2>
 
-        <form
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfLFXuzwJoQ0e9qgjrTYQts1Yhje1fPXVOn38CINjWtgVDXpw/viewform?usp=dialog"
+          target="_blank"
           style={{
-            display: "grid",
-            gap: "20px",
+            background: "#2563eb",
+            color: "white",
+            padding: "15px",
+            borderRadius: "10px",
+            textDecoration: "none",
+            textAlign: "center",
+            fontSize: "18px",
+            display: "block",
           }}
         >
-          <input
-            type="text"
-            placeholder="Full Name"
-            style={{
-              padding: "15px",
-              borderRadius: "10px",
-              border: "none",
-            }}
-          />
-
-          <input
-            type="email"
-            placeholder="Email Address"
-            style={{
-              padding: "15px",
-              borderRadius: "10px",
-              border: "none",
-            }}
-          />
-
-          <input
-            type="text"
-            placeholder="Phone Number"
-            style={{
-              padding: "15px",
-              borderRadius: "10px",
-              border: "none",
-            }}
-          />
-
-          <button
-            style={{
-              background: "#2563eb",
-              color: "white",
-              padding: "15px",
-              borderRadius: "10px",
-              border: "none",
-              fontSize: "18px",
-              cursor: "pointer",
-            }}
-          >
-            Submit Registration
-          </button>
-        </form>
+          Open Registration Form
+        </a>
       </section>
 
       <footer
