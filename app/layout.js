@@ -15,7 +15,7 @@ export const metadata = {
   title: "Abson School",
   description: "English Language and Basic Computer Skills Training",
   verification: {
-  google: "h5Uty_EGbhggekctwiszmABA78N2Nz2rOyPD5PIBjXw" />",
+  google: "h5Uty_EGbhggekctwiszmABA78N2Nz2rOyPD5PIBjXw",
 },
 };
 
