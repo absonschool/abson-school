@@ -24,3 +24,25 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* MOBILE NAVBAR */
+.mobile-button {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none !important;
+  }
+
+  .mobile-button {
+    display: block !important;
+  }
+
+  .mobile-menu {
+    display: flex !important;
+  }
+}
