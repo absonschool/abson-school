@@ -41,20 +41,22 @@ export const metadata = {
     icon: "/Abson-School-Logo.png",
   },
 
- openGraph: {
+openGraph: {
   title: "Abson School",
   description:
     "English Language and Basic Computer Skills Training in Ethiopia.",
   url: "https://abson-school.vercel.app",
   siteName: "Abson School",
+
   images: [
     {
-      url: "/Abson-School-Logo.png",
+      url: "/og-image.jpg",
       width: 1200,
       height: 630,
       alt: "Abson School",
     },
   ],
+
   locale: "en_US",
   type: "website",
 },
@@ -64,7 +66,10 @@ twitter: {
   title: "Abson School",
   description:
     "English Language and Basic Computer Skills Training in Ethiopia.",
-  images: ["/Abson-School-Logo.png"],
+  images: ["/og-image.jpg"],
+},
+alternates: {
+  canonical: "https://abson-school.vercel.app",
 },
 };
 
