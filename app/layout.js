@@ -77,24 +77,29 @@ alternates: {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-  <body>
-    {children}
+      <body
+        className={`${geistSans.variable} ${geistMono.variable}`}
+      >
+        {children}
 
-    <Script
-      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-      strategy="afterInteractive"
-    />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-DJW4BZEC8H"
+          strategy="afterInteractive"
+        />
 
-    <Script id="google-analytics" strategy="afterInteractive">
-      {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+        >
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'G-DJW4BZEC8H');
-      `}
-    </Script>
-  </body>
-</html>
+            gtag('config', 'G-DJW4BZEC8H');
+          `}
+        </Script>
+      </body>
+    </html>
   );
 }
