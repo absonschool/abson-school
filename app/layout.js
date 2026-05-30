@@ -89,7 +89,20 @@ export default function RootLayout({ children }) {
     src="https://www.googletagmanager.com/gtag/js?id=G-DJW4BZEC8H"
     strategy="afterInteractive"
   />
-
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      name: "Abson School",
+      url: "https://abson-school.vercel.app",
+      logo: "https://abson-school.vercel.app/Abson-School-Logo.png",
+      description:
+        "English Language and Basic Computer Skills Training in Ethiopia"
+    }),
+  }}
+/>
   <Script
     id="google-analytics"
     strategy="afterInteractive"
