@@ -110,7 +110,7 @@ const testimonials = [
     backgroundSize: "100% 100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    backgroundAttachment: "fixed",
+    backgroundAttachment: "scroll",
     color: text,
     fontFamily: "Arial",
     transition: "0.4s",
@@ -426,14 +426,20 @@ const testimonials = [
 
       {/* HERO */}
       <section
-        id="home"
-        style={{
-          textAlign: "center",
-          padding: "120px 20px",
-          maxWidth: "1000px",
-          margin: "0 auto",
-        }}
-      >
+  id="home"
+  style={{
+    textAlign: "center",
+    padding: "120px 20px",
+    maxWidth: "100%",
+    margin: "0 auto",
+
+    backgroundImage:
+      "linear-gradient(rgba(15,23,42,0.45), rgba(15,23,42,0.45)), url('/image/promotions/background.webp')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+        >
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
