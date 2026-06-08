@@ -106,7 +106,7 @@ const testimonials = [
     <main
   style={{
     backgroundImage:
-      "linear-gradient(rgba(15,23,42,0.45), rgba(15,23,42,0.45)), url('/image/promotions/background.jpg')",
+      "linear-gradient(rgba(15,23,42,0.45), rgba(15,23,42,0.45)), url('/image/promotions/background.webp')",
     backgroundSize: "100% 100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
